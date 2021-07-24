@@ -3,14 +3,14 @@
     margin: 0;
     padding: 0
 }
-body{
+body {
 	font-family: "arial",serif;
-	color:#6d6d6d;
-}	
+	color: #ffffff;
+}
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-    margin: 0;	
-	color:#3a3d42;
+	font-weight: normal;
+	margin: 0;
+	color: #fff;
 	font-family: 'Bitter', serif;
 }
 a{
@@ -94,25 +94,25 @@ span.mobile-menu-title, .drodown-mega-menu .mega-menu-list ul li a, .new-mark-bo
 	text-transform: capitalize;
 	line-height:21px;
 }
-.bstore-breadcrumb a{
-	color: #333;
-	display: block;
-	float: left;
-	text-transform: uppercase;
-}
+	.bstore-breadcrumb a {
+		color: #fff;
+		display: block;
+		float: left;
+		text-transform: uppercase;
+	}
 .bstore-breadcrumb a:hover{
 	color:#ff4f4f;
 }
-.bstore-breadcrumb span i{
-	color: #333;
-	margin-left: 5px;
-	margin-right: 1.5px;
-	position: relative;
-	top: -1px;
-}
-.bstore-breadcrumb span{
-	color:#777;
-}
+	.bstore-breadcrumb span i {
+		color: #fff;
+		margin-left: 5px;
+		margin-right: 1.5px;
+		position: relative;
+		top: -1px;
+	}
+	.bstore-breadcrumb span {
+		color: #fff;
+	}
 /*-----------------------
 2.2 left title
 -------------------------*/	
@@ -228,19 +228,19 @@ i.owl-next-icon{
 }
 /*-----------------------
 2.5 page-title
--------------------------*/	
-h2.page-title{
-border-bottom: 1px solid #d6d4d4;
-color: #555454;
-font-size:18px;
-line-height:22px;
-font-family: 'Bitter', serif;
-font-weight:600;
-margin-bottom: 30px;
-margin-top: 0px;
-overflow: hidden;
-padding: 0 0 17px;
-text-transform: uppercase;
+-------------------------*/
+h2.page-title {
+	border-bottom: 1px solid #d6d4d4;
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: 'Bitter', serif;
+	font-weight: 600;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	overflow: hidden;
+	padding: 0 0 17px;
+	text-transform: uppercase;
 }
 /*-----------------------
 2.6 scroll to top
@@ -445,9 +445,9 @@ span.mobile-menu-title{
 }
 /*-----------------------
 3.2 header middle
--------------------------*/	
-.header-middle{
-	background:#EBEBEB;
+-------------------------*/
+.header-middle {
+	background: #131112;
 }
 .logo{
 	padding-top:25px;
@@ -1371,11 +1371,11 @@ div.client-carousel .owl-item img {
 }
 /*-----------------------
 8. company facality
--------------------------*/	
-.company-facality{
-	background:#EBEBEB;
-	margin-top:30px;
-	padding-bottom:50px;
+-------------------------*/
+.company-facality {
+	background: #131112;
+	margin-top: 30px;
+	padding-bottom: 50px;
 }
 .company-facality-row{}
 .single-facality{
@@ -3027,13 +3027,13 @@ form.error-ser-form .error-ser-btn:hover{
 .primary-form-group{
 	margin-bottom: 1px;
 	overflow:hidden;
-} 
-.primary-form-group label{
-	color: #333;
-	display: inline-block;
-	font-size: 13px;
-	margin-bottom: 3px;
-} 
+}
+	.primary-form-group label {
+		color: #fff;
+		display: inline-block;
+		font-size: 13px;
+		margin-bottom: 3px;
+	} 
 .primary-form-group input.input-feild, .primary-form-group textarea{
 	border: 1px solid #d6d4d4;
 	border-radius: 0;
@@ -3585,11 +3585,11 @@ ul.step li.step-done span a{
 	text-align: center;
 }
 .table > thead > tr > th {
-	background: #fbfbfb none repeat scroll 0 0;
+	background: #131112 none repeat scroll 0 0;
 	border-bottom-width: 1px;
-	color: #333;
+	color: #fff;
 	vertical-align: middle;
-	font-size:13px;
+	font-size: 13px;
 }
 .table thead > tr > th, .table thead > tr > td, .table tbody > tr > th, .table tbody > tr > td, .table tfoot > tr > th, .table tfoot > tr > td {
 	line-height: 1.42857;
@@ -3635,11 +3635,11 @@ p.product-name {
 	margin-bottom: 0;
 	margin-top:0;
 }
-p.product-name a{
-	color: #3a3939;
-	font-size: 17px;
-	line-height: 23px;
-}
+	p.product-name a {
+		color: #ffffff;
+		font-size: 17px;
+		line-height: 23px;
+	}
 p.product-name a:hover {
 	color: #515151;
 }
@@ -3687,7 +3687,7 @@ a.cart_quantity_delete i:hover{
 	margin-left: 3px;
 }
 .price {
-	color: #777;
+	color: #fff;
 	font-size: 13px;
 	white-space: nowrap;
 }
@@ -3712,32 +3712,32 @@ a.cart_quantity_delete i:hover{
 	text-decoration: line-through;
 }
 #cart-summary tfoot td.text-right, #cart-summary tfoot tbody td.cart-unit, #cart-summary tbody tfoot td.cart-unit, #cart-summary tfoot tbody td.cart-total, #cart-summary tbody tfoot td.cart-total {
-	color: #333;
-	font-size:13px;
+	color: #fff;
+	font-size: 13px;
 	line-height: 1.42857;
-	padding:8px 8px 9px 18px;
+	padding: 8px 8px 9px 18px;
 }
 .table tfoot tr {
-	background: #fbfbfb none repeat scroll 0 0;
-	text-align:right;
+	background: #131112 none repeat scroll 0 0;
+	text-align: right;
 }
 .cart-total-price .cart_voucher{
 	border-bottom:1px solid #fff;
 }
 #cart-summary tfoot td.total-price-container span {
-	color: #555454;
-	font-size:18px;
-	line-height:22px;
-	font-weight:600;
-	font-family:"Open Sans",sans-serif;
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 600;
+	font-family: "Open Sans",sans-serif;
 	text-transform: uppercase;
 }
 #cart-summary tfoot td#total-price-container {
-	background: #fff none repeat scroll 0 0;
-	color: #333;
-	font-size:21px;
-	line-height:25px;
-	font-family:"Open Sans",sans-serif;
+	background: #131112 none repeat scroll 0 0;
+	color: #fff;
+	font-size: 21px;
+	line-height: 25px;
+	font-family: "Open Sans",sans-serif;
 }
 .cart-total-price{} 
 .total-price-container{} 
@@ -3752,14 +3752,14 @@ ul.address li span{
 	margin:0 0 20px;
 	overflow: hidden;
 }
-.returne-continue-shop a.continueshoping{
-	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-	border: medium none;
-	color: #333;
-	font-size: 17px;
-	padding: 0;
-	line-height:50px;
-}
+	.returne-continue-shop a.continueshoping {
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+		border: medium none;
+		color: #fff;
+		font-size: 17px;
+		padding: 0;
+		line-height: 50px;
+	}
 .returne-continue-shop a.continueshoping:hover{
 	color:#515151;
 }
@@ -4149,20 +4149,20 @@ span.large-btn:hover i{
 .single-product-descirption{
 	margin-bottom:30px;
 }
-.single-product-descirption p{
-	margin:0;
-	font-size:13px;
-	color:#333;
-	line-height:18px;
-}
-.single-product-descirption h2{
-	color: #333;
-	font-size: 24px;
-	line-height: 29px;
-	margin: 0 0 5px;
-	padding: 0 0 5px;
-	text-transform: uppercase;
-}
+	.single-product-descirption p {
+		margin: 0;
+		font-size: 13px;
+		color: #ffffff;
+		line-height: 18px;
+	}
+	.single-product-descirption h2 {
+		color: #ffffff;
+		font-size: 24px;
+		line-height: 29px;
+		margin: 0 0 5px;
+		padding: 0 0 5px;
+		text-transform: uppercase;
+	}
 .single-product-social-share, .single-product-condition, .single-product-price, .product-in-stock, .single-product-info, .single-product-info a, .single-product-quantity, .single-product-size select option, .single-product-right-sidebar ul li, .r-sidebar-pro-content, .r-sidebar-pro-content h5{
 	overflow:hidden;
 }
@@ -4245,11 +4245,11 @@ span.large-btn:hover i{
 .single-product-condition p{
 	margin-bottom:10px;
 }
-.single-product-condition p span{
-	color:#777;
-	font-size:13px;
-	font-weight:normal;
-}
+	.single-product-condition p span {
+		color: #ffffff;
+		font-size: 13px;
+		font-weight: normal;
+	}
 .single-product-price{
 	border-bottom: 1px solid #eee;
 	border-top: 1px solid #eee;
@@ -4387,13 +4387,13 @@ p.small-title{
 .color-beige{}
 .color-white{}
 .single-product-add-cart{}
-.add-cart-text{
-	background: #3e3e3e none repeat scroll 0 0;
+.add-cart-text {
+	background: #ff4f4f none repeat scroll 0 0;
 	border: 0 none;
 	color: #fff;
 	display: inline-block;
-	font-size:13px;
-	line-height:40px;
+	font-size: 13px;
+	line-height: 40px;
 	font-family: 'Bitter', serif;
 	padding: 0 30px;
 	position: relative;
@@ -4597,17 +4597,17 @@ a.write-review-btn{
 	line-height:18px;
 }
 .r-sidebar-pro-content h5{}
-.r-sidebar-pro-content h5 a{
-	color: #333;
-	display: block;
-	font-weight:400;
-	font-size:16px;
-	font-family: 'Bitter', serif;
-	text-transform: capitalize;
-	transition: all 300ms ease 0s;
-	margin-right:0px !important;
-	margin-bottom:10px;
-}
+	.r-sidebar-pro-content h5 a {
+		color: #fff;
+		display: block;
+		font-weight: 400;
+		font-size: 16px;
+		font-family: 'Bitter', serif;
+		text-transform: capitalize;
+		transition: all 300ms ease 0s;
+		margin-right: 0px !important;
+		margin-bottom: 10px;
+	}
 .r-sidebar-pro-content h5 a:hover{
 	color:#FF4F4F;
 }
