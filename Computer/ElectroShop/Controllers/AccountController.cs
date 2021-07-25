@@ -78,8 +78,16 @@ namespace ElectroShop.Controllers
             var list = db.Orders.Where(m => m.CustemerId == userid).OrderByDescending(m => m.CreateDate).ToList();
             ViewBag.itemOrder = db.Orderdetails.ToList();
             int user_id = Convert.ToInt32(Session["User_ID"]);
-            ViewBag.Info = db.Users.Where(m => m.ID == user_id).First();
-            ViewBag.productOrder = db.Products.ToList();
+            try
+            {
+                ViewBag.Info = db.Users.Where(m => m.ID == user_id).First();
+                ViewBag.productOrder = db.Products.ToList();
+            }
+            catch (Exception)
+            {
+
+            }
+            
             return View(list);
         }
         public ActionResult ActionOrder()

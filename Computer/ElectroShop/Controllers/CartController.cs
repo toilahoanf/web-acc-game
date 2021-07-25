@@ -35,7 +35,6 @@ namespace ElectroShop.Controllers
                 item.Price = p.Price;
                 var list = new List<ModelCart>();
                 list.Add(item);
-
                 Session["Cart"] = list;
                 return Json(new { result = 1 });
             }
@@ -92,6 +91,13 @@ namespace ElectroShop.Controllers
                 }
             }
             return Json(null);
+        }
+        public ActionResult Remove1(int pid)
+        {
+            
+
+            var cart = Session["Cart"];
+            return null;
         }
         public ActionResult RemoveAll()
         {

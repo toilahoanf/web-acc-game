@@ -69,9 +69,9 @@
                                 <p class="small-title">Số lượng</p>
                                 <div class="cart-quantity">
                                     <div class="cart">
-                                        <div class="dec qtybutton" onclick="return Tru();">-</div>
-                                        <input class="cart-plus-minus sing-pro-qty" type="number" id="qtyDpt" name="" value="1" min="1">
-                                        <div class="inc qtybutton" style="float:left;" onclick="return Cong();"></div>
+                                        <button class="dec qtybutton" onclick="Tru()">-</button>
+                                        <input class="cart-plus-minus sing-pro-qty" type="number" id="qtyDpt" value="1" min="1">
+                                        <button class="inc qtybutton" style="float:left;" onclick='Cong()'>+</button>
                                     </div>
                                 </div>
                             </div>
@@ -179,15 +179,15 @@
 
 <script>
     function Cong() {
-        const num = parseInt($('.etd').val());
-        if (num < 99) {
-            $('.etd').val(num + 1);
-        }
+        
+        @*$('#qtyDpt').val(parseInt($('#qtyDpt').val()) + 1);*@
+        
+        document.getElementById("qtyDpt").value = parseInt(document.getElementById("qtyDpt").value) + 1;
+        
     }
     function Tru() {
-        const num = parseInt($('.etd').val());
-        if (num > 1) {
-            $('.etd').val(num - 1);
-        }
+        @*$('#qtyDpt').val(parseInt($('#qtyDpt').val()) - 1);*@
+        
+        document.getElementById("qtyDpt").value = parseInt(document.getElementById("qtyDpt").value) - 1;
     }
 </script>
