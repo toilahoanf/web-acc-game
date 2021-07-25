@@ -2262,11 +2262,9 @@
     <Content Include="Public\user\img\ajax-loader.gif" />
     <Content Include="Public\user\img\bank.png" />
     <Content Include="Public\user\img\bankwire.png" />
-    <Content Include="Public\user\img\brand\20201107090148!Msi_logo.png" />
-    <Content Include="Public\user\img\brand\Acer_logo_logotype_emblem.png" />
-    <Content Include="Public\user\img\brand\Dell_Logo.png" />
-    <Content Include="Public\user\img\brand\Hewlett-Packard-Company-Logo.jpg" />
-    <Content Include="Public\user\img\brand\Toshiba-Logo.png" />
+    <Content Include="Public\user\img\brand\Battle.net_2021_logo.jpg" />
+    <Content Include="Public\user\img\brand\Logo-Steam.jpg" />
+    <Content Include="Public\user\img\brand\Origin-Logo.jpg" />
     <Content Include="Public\user\img\bs-after-q.png" />
     <Content Include="Public\user\img\bs-before-q.png" />
     <Content Include="Public\user\img\caret.png" />

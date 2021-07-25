@@ -41,7 +41,6 @@ namespace ElectroShop.Controllers
             else
             {
                 var list = (List<ModelCart>)cart;
-
                 if (list.Exists(m => m.ProductID == pid))
                 {
                     foreach (var item in list)
