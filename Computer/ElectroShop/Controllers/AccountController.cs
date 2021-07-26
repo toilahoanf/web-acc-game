@@ -34,7 +34,7 @@ namespace HALAShop.Controllers
                 var user_acount = db.Users.Where(m => m.Status == 1 && ((m.Phone).ToString() == User || m.Email == User || m.Name == User) && m.Password == Password);
                 if (user_acount.Count() == 0)
                 {
-                    return Json(new { s = 2 });
+                    return Json(new { s = 1 });
                 }
                 else
                 {
