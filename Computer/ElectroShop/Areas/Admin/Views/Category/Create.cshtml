@@ -1,4 +1,4 @@
-﻿@model ElectroShop.Models.MCategory
+﻿@model HALAShop.Models.MCategory
 
 @{
     ViewBag.Title = "Tạo mới danh mục sản phẩm";
@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group">
-                                        <label><strong class="select">Chủ đề cha(<span class="text-danger">*</span>)</strong></label>
+                                        <label><strong class="select">Danh mục(<span class="text-danger">*</span>)</strong></label>
                                         @Html.DropDownListFor(model => model.ParentId, (SelectList)ViewBag.ListCast, "[--None--]", new { @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.ParentId, "", new { @class = "text-danger" })
 

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ElectroShop.Models.MCategory>
+﻿@model IEnumerable<HALAShop.Models.MCategory>
 
 @{
     ViewBag.Title = "Danh mục sản phẩm";
@@ -39,7 +39,6 @@
                             <tr>
                                 <th data-toggle="true">STT</th>
                                 <th>Tên danh mục</th>
-                                <th>Cấp cha</th>
                                 <th data-hide="all">Ngày tạo</th>
                                 <th data-hide="all">Liên kết</th>
                                 <th>Công cụ</th>
@@ -56,23 +55,7 @@
                                 <td>
                                     <a href="@Url.Action("Details","Category", new {Id = item.Id })">@item.Name</a>
                                 </td>
-                                <td>
-                                    @if (item.ParentId == 0)
-                                    {
-
-                                        <span style="color:red;">[--Là cấp cha--]</span>
-                                    }
-                                    else
-                                    {
-                                        foreach (var il in ViewBag.GetAllCategory)
-                                        {
-                                            if (item.ParentId == il.ID)
-                                            {
-                                                <span>@il.Name@*Cấp con*@</span>
-                                            }
-                                        }
-                                    }
-                                </td>
+                              
                                 <td>
                                     @String.Format("{0:dd:MM:yyyy -  hh:mm:ss}", item.Updated_at)
 

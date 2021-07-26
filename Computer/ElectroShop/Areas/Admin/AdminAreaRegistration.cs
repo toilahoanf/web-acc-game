@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace ElectroShop.Areas.Admin
+namespace HALAShop.Areas.Admin
 {
     public class AdminAreaRegistration : AreaRegistration 
     {

@@ -1,4 +1,4 @@
-﻿namespace ElectroShop.Models
+﻿namespace HALAShop.Models
 {
     using System;
 using System.Collections.Generic;

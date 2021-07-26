@@ -1,4 +1,4 @@
-﻿@model ElectroShop.Models.MProduct
+﻿@model HALAShop.Models.MProduct
 @{
     ViewBag.Title = @Model.Name;
     Layout = "~/Views/Shared/_LayoutSite.cshtml";
@@ -69,9 +69,7 @@
                                 <p class="small-title">Số lượng</p>
                                 <div class="cart-quantity">
                                     <div class="cart">
-                                        <button class="dec qtybutton" onclick="Tru()">-</button>
                                         <input class="cart-plus-minus sing-pro-qty" type="number" id="qtyDpt" value="1" min="1">
-                                        <button class="inc qtybutton" style="float:left;" onclick='Cong()'>+</button>
                                     </div>
                                 </div>
                             </div>
@@ -164,12 +162,11 @@
                 <div class="single-product-right-sidebar clearfix">
                     <h2 class="left-title">Tìm kiếm nhiều </h2>
                     <div class="category-tag">
-                        <a href="#">DELL</a>
-                        <a href="#">Laptop chơi game</a>
-                        <a href="#">Lap gia re</a>
-                        <a href="#">Laptop văn phòng</a>
-                        <a href="#">Laptop lmht</a>
-                        <a href="#">Laptop lập trình viên</a>
+                        <a href="tai-khoan-netflix-premium-for-1-user-(1-thang)">Netflix</a>
+                        <a href="#"PUBG </a>
+                        <a href="#">OverWatch</a>
+                        <a href="#">Spotify</a>
+                        <a href="#">Youtube</a>
                     </div>
                 </div>
             </div>
@@ -178,11 +175,4 @@
 </section>
 
 <script>
-    function Cong() {       
-        document.getElementById("qtyDpt").value = parseInt(document.getElementById("qtyDpt").value) + 1;
-        
-    }
-    function Tru() {       
-        document.getElementById("qtyDpt").value = parseInt(document.getElementById("qtyDpt").value) - 1;
-    }
 </script>

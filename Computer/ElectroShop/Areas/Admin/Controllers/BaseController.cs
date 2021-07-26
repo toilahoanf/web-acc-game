@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ElectroShop.Areas.Admin.Controllers
+namespace HALAShop.Areas.Admin.Controllers
 {
     public class BaseController : Controller
     {

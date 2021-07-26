@@ -1,16 +1,16 @@
-﻿using ElectroShop.Library;
-using ElectroShop.Models;
+﻿using HALAShop.Library;
+using HALAShop.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ElectroShop.Controllers
+namespace HALAShop.Controllers
 {
     public class CartController : Controller
     {
-        private ElectroShopDbContext db = new ElectroShopDbContext();
+        private HALAShopDbContext db = new HALAShopDbContext();
         // GET: Cart
         public ActionResult Index()
         {

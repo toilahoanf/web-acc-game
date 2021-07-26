@@ -7,13 +7,13 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using ElectroShop.Models;
+using HALAShop.Models;
 
-namespace ElectroShop.Areas.Admin.Controllers
+namespace HALAShop.Areas.Admin.Controllers
 {
     public class PostController : BaseController
     {
-        private ElectroShopDbContext db = new ElectroShopDbContext();
+        private HALAShopDbContext db = new HALAShopDbContext();
 
         public ActionResult Index()
         {

@@ -1,5 +1,5 @@
 ﻿@using PagedList.Mvc;
-@model PagedList.IPagedList<ElectroShop.Models.MProduct>
+@model PagedList.IPagedList<HALAShop.Models.MProduct>
 @{
     ViewBag.Title = ViewBag.CatName;
     Layout = "~/Views/Shared/_LayoutSite.cshtml";
@@ -95,10 +95,6 @@
                     </div>
                 </div>
                 <div class="product-shooting-result product-shooting-result-border">
-
-                    <div class="showing-item">
-                        <span>Showing 1 - 12 of @ViewBag.Sl</span>
-                    </div>
                     <div class="showing-next-prev">
                         @Html.PagedListPager(Model, page => Url.Action("Index", "Site", new { slug = ViewBag.Slug, page }))
 

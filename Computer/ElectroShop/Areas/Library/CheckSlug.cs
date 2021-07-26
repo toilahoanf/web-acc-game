@@ -1,14 +1,14 @@
-﻿using ElectroShop.Models;
+﻿using HALAShop.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ElectroShop
+namespace HALAShop
 {
     public class CheckSlug
     {
-        ElectroShopDbContext db = new ElectroShopDbContext();
+        HALAShopDbContext db = new HALAShopDbContext();
         public bool KiemTraSlug(String Table, String Slug, int? id)
         {
             switch (Table)

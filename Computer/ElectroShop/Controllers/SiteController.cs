@@ -1,4 +1,4 @@
-﻿using ElectroShop.Models;
+﻿using HALAShop.Models;
 using PagedList;
 using System;
 using System.Collections.Generic;
@@ -6,11 +6,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ElectroShop.Controllers
+namespace HALAShop.Controllers
 {
     public class SiteController : Controller
     {
-        private ElectroShopDbContext db = new ElectroShopDbContext();
+        private HALAShopDbContext db = new HALAShopDbContext();
         // GET: Site
         public ActionResult Index(String slug = "")
         {

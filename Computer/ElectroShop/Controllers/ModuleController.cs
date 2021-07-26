@@ -1,15 +1,15 @@
-﻿using ElectroShop.Models;
+﻿using HALAShop.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ElectroShop.Controllers
+namespace HALAShop.Controllers
 {
     public class ModuleController : Controller
     {
-        private ElectroShopDbContext db = new ElectroShopDbContext();
+        private HALAShopDbContext db = new HALAShopDbContext();
         // GET: Module
         public ActionResult Index()
         {

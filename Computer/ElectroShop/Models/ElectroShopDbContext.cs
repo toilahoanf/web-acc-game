@@ -1,13 +1,13 @@
-﻿namespace ElectroShop.Models
+﻿namespace HALAShop.Models
 {
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
-    public class ElectroShopDbContext : DbContext
+    public class HALAShopDbContext : DbContext
     {
-        public ElectroShopDbContext() : base("name=StrC")
+        public HALAShopDbContext() : base("name=StrC")
         { }
         public virtual DbSet<MProduct> Products { get; set; }
         public virtual DbSet<MCategory> Categorys { get; set; }

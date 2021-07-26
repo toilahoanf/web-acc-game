@@ -11,13 +11,13 @@
                             <a class="shop-link" href="gio-hang" title="Giỏ hàng">
                                 <i class="fa fa-shopping-cart cart-icon"></i>
                                 <b>Giỏ hàng</b>
-                                @foreach (var b in (List<ElectroShop.Library.ModelCart>)Session["Cart"])
+                                @foreach (var b in (List<HALAShop.Library.ModelCart>)Session["Cart"])
                                 {
                             <span class="ajax-cart-quantity">@b.Quantity</span>
                                 }
                                             </a>
                             @{double Tong = 0;}
-                            @foreach (var c in (List<ElectroShop.Library.ModelCart>)Session["Cart"])
+                            @foreach (var c in (List<HALAShop.Library.ModelCart>)Session["Cart"])
                             {
                                 Tong += (c.Price * c.Quantity);
             <div class="shipping-cart-overly">

@@ -1,15 +1,15 @@
-﻿using ElectroShop.Models;
+﻿using HALAShop.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ElectroShop.Controllers
+namespace HALAShop.Controllers
 {
     public class AccountController : Controller
     {
-        private ElectroShopDbContext db = new ElectroShopDbContext();
+        private HALAShopDbContext db = new HALAShopDbContext();
         //public AccountController()
         //{
         //    if (System.Web.HttpContext.Current.Session["User_Name"] == null)

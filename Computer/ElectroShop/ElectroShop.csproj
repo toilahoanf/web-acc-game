@@ -2216,8 +2216,6 @@
     <Content Include="Public\js\sweetalert2%409.js" />
     <Content Include="Public\js\target.min.js" />
     <Content Include="Public\js\tb.css" />
-    <Content Include="Public\library\product\laptop-cu-dell-latitude-3350 -intel-corei5.png" />
-    <Content Include="Public\library\user\user.png" />
     <Content Include="Public\user\css\AjaxLoader.html" />
     <Content Include="Public\user\css\alert.css" />
     <Content Include="Public\user\css\animate.css" />
@@ -2275,6 +2273,7 @@
     <Content Include="Public\user\img\delivery-method.jpg" />
     <Content Include="Public\user\img\favicon.png" />
     <Content Include="Public\user\img\grabbing.png" />
+    <Content Include="Public\user\img\hoan.jpg" />
     <Content Include="Public\user\img\latest-news\1.jpg" />
     <Content Include="Public\user\img\latest-news\2.jpg" />
     <Content Include="Public\user\img\latest-news\3.jpg" />
@@ -2290,6 +2289,7 @@
     <Content Include="Public\user\img\layout2\7.png" />
     <Content Include="Public\user\img\logo.png" />
     <Content Include="Public\user\img\logo2.png" />
+    <Content Include="Public\user\img\lon.jpg" />
     <Content Include="Public\user\img\Master-Card-icon.png" />
     <Content Include="Public\user\img\order-step-a.png" />
     <Content Include="Public\user\img\order-step-current.png" />
@@ -2336,7 +2336,9 @@
     <Content Include="Public\user\img\slider\homepage2\3.jpg" />
     <Content Include="Public\user\img\slider\homepage2\4.jpg" />
     <Content Include="Public\user\img\sprite.png" />
+    <Content Include="Public\user\img\ta.jpg" />
     <Content Include="Public\user\img\testimon-after.gif" />
+    <Content Include="Public\user\img\va.jpg" />
     <Content Include="Public\user\img\wishlist\faded-short-sleeves-tshirt.jpg" />
     <Content Include="Public\user\img\wishlist\printed-chiffon-dress.jpg" />
     <Content Include="Public\user\img\wishlist\printed-dress.jpg" />
@@ -2768,7 +2770,9 @@
     <Folder Include="Areas\Admin\Views\Base\" />
     <Folder Include="Public\library\page\" />
     <Folder Include="Public\library\post\" />
+    <Folder Include="Public\library\product\" />
     <Folder Include="Public\library\slider\" />
+    <Folder Include="Public\library\user\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
